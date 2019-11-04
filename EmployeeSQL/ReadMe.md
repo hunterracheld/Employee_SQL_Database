@@ -1,0 +1,5 @@
+1. I don't think my ERD reflects how I actually ended up creating tables and importing the CSV files into them.  In retrospect there was probably a lot of opportunity to link emp_nos using a foregin key. However, I think I got some conflicting information about whether to drop columns during import and felt like I was erring on the side of caution by importing everything from the csv files as-is. 
+
+2. For the Bonus, I created a View to query, and this is saved as a separate sql file called salaryanalysis.
+
+3. Abot the Bonus: I know that the View I used is missing information, specifically for employees who have had multiple titles, so this affects the averages that print in the View/DataFrame as well. They are not 100% accurate. I experimented with a few different types of joins and they all left out the same information. Other internet research led me to window functions and that just felt too advanced for 10pm on a Saturday night. Looking forward to seeing what the actual solution was for this, sql-side.
